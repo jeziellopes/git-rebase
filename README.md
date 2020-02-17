@@ -7,13 +7,15 @@
 - Inside <em>Vim</em> editor, change 'pick' to 'edit' on commit that will be updated.
 
   > from: `pick de0e7ec added gh-pages`
+  >
   > to: `edit de0e7ec added gh-pages`
 
 - Update the data
 
+  > close <em>Vim</em> saving changes: `qw`
+  >
   > user from commit:
   > `git commit --amend --author="username <user@email.com>"`
-  > just close <em>Vim</em> saving changes: `qw`
 
 - Finish rebase!
   > `git rebase --continue`
